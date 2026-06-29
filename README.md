@@ -42,17 +42,22 @@ Analyzed transaction amount and time
 Visualized feature distributions
 Generated a correlation heatmap
 Compared fraud and non-fraud transactions
+
 🔧 Data Preprocessing
+
 Scaled the Time and Amount features using StandardScaler
 Split the dataset into training and testing sets (70:30)
 Applied undersampling to reduce class imbalance
 Prepared the data for model training
+
+
 🤖 Models Used
 Logistic Regression
 Precision: 83%
 Recall: 63%
 F1-Score: 0.72
 ROC-AUC: 0.958
+
 Random Forest Classifier
 
 The Random Forest model achieved better overall performance, especially in detecting fraudulent transactions, making it the better-performing model in this project.
